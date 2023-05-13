@@ -1,0 +1,53 @@
+/* Write your code here. */
+.app-container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 28px;
+  border-radius: 16px;
+  width: 90%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  color: #cb8805;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+}
+
+.faqs-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .faqs-list {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .faqs-list {
+    width: 80%;
+  }
+}
